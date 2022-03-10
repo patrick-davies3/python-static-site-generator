@@ -6,4 +6,4 @@ def main(source="content", dest="dist"):
 
     Site(**config).build()
 
-typer.run(main())
+typer.run(main)
